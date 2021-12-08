@@ -43,11 +43,12 @@ body {
     flex-direction: column;
     color: white;
     justify-content: center;
-    font-size: clamp(1rem,4vw,2rem);
+    
 }
 
 .horarios p {
     padding-bottom: 10px;
+    font-size: clamp(1rem,4vw,2rem);
 }
 
 .horarios :nth-child(1) {
@@ -58,6 +59,10 @@ body {
 .email {
     margin-top: 30%;
     padding-bottom: 10px;
+}
+
+.email p {
+    font-size: clamp(1rem,4vw,2rem);
 }
 
 .email :nth-child(1) {
