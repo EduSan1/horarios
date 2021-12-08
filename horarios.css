@@ -61,10 +61,35 @@
     width: 225px;
     height: 620px;
 }
+.texto {
+    display: none;
+}
  @media (max-width:720px) {
 
 .horarios-conteudo {
     display: none;
 }
 
- }
+.texto {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+
+.texto :nth-child(odd) {
+    color: #ff7701;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.texto :nth-child(even) {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 80px;
+}
+
+}
